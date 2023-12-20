@@ -31,7 +31,7 @@ Notez que pour des raisons de support différentes des visualiseurs de fichiers 
 les preuves vidéos directement dans le fichier Markdown. Par exemple, sur Gitlab dans le navigateur Brave, je n'ai aucun problème, mais dans
 Vscodium, je ne les vois pas, alors j'ai mis un lien vers le fichier vidéo à chaque emplacement où une vidéo est censée être.
 
-## Question du gestionaire chez Jey INC.
+## Question du gestionnaire chez Jey INC.
 
 Vous trouverez ici les réponses aux deux questions posées dans ce travail pratique.
 
