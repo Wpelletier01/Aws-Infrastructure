@@ -1,0 +1,15 @@
+
+
+users:
+
+  - name: will
+    groups: users,admin
+    shell: /bin/bash
+    lock_passwd: false 
+    hashed_passwd: $6$rounds=4096$Yii4WjW6cYl3VLRr$mPt3U3ClmB17OE7/2AsWmBJS07qhIyUKh.XjP/7kQEUL8ALo43Pk5A7QDB17lFXJYoqFC5XWSLwqT2j3UpcSC1
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDuTHONgZhjqtgbjrzQ8+3vd0oJlr0dBWRkL4xV5PLhwMJntQ3tHwPEDcN0LwsQAlNLtRjPtgwtmow7KWGve5Rt8snjif6G1qIXZ/xk3t8cCRhuFFofWnGcmU/eqeduk5G1tdPiY86dv+C23/s2nEV5h2ihmSrCPCfDjz9QfppmZrJDLJuPH+zFbJX7+7c4pfK4ZtV6qAq9ZlUAACismWkYK8g/Wscp0SuT0FBoIqt+ApZAyN/zkV9xe+gSRq3/J2zsyhZyY8bYpvsSFmVykzlG1vupXC+ZklZfcp1HCUzuRbS4IIRlQYLM6JsGhrONBNILxbuHaJ/i17T/37TEwplZ will@archpc
+
+hostname: sqlserver
+
+ssh_pwauth: True 

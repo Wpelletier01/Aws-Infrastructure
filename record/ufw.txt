@@ -1,0 +1,35 @@
+# openvpn
+To                         Action      From
+--                         ------      ----
+1194/udp                   ALLOW       Anywhere                  
+22                         ALLOW       10.8.0.0/24               
+1194/udp (v6)              ALLOW       Anywhere (v6)   
+
+# sqlserver
+To                         Action      From
+--                         ------      ----
+80                         ALLOW       Anywhere       
+443                        ALLOW       Anywhere         
+22                         ALLOW       192.168.56.0/24               
+  
+# glpi
+To                         Action      From
+--                         ------      ----
+80                         ALLOW       Anywhere       
+443                        ALLOW       Anywhere         
+22                         ALLOW       192.168.56.0/24        
+
+# mattermost
+To                         Action      From
+--                         ------      ----
+80                         ALLOW       Anywhere       
+443                        ALLOW       Anywhere
+8806/tcp                   ALLOW       Anywhere        
+22                         ALLOW       192.168.56.0/24        
+
+# nextcloud
+To                         Action      From
+--                         ------      ----
+80                         ALLOW       Anywhere       
+443                        ALLOW       Anywhere         
+22                         ALLOW       192.168.56.0/24    

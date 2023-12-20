@@ -1,0 +1,7 @@
+CREATE DATABASE mattermost;
+
+CREATE USER 'mmuser'@'192.168.56.14' IDENTIFIED BY 'crosemont';
+
+GRANT ALL PRIVILEGES ON mattermost.* TO 'mmuser'@'192.168.56.14';
+
+FLUSH PRIVILEGES;

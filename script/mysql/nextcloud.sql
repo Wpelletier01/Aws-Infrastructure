@@ -1,0 +1,7 @@
+CREATE DATABASE nextcloud;
+
+CREATE USER 'next'@'192.168.56.13' IDENTIFIED BY 'crosemont';
+
+GRANT ALL PRIVILEGES ON nextcloud.* TO 'next'@'192.168.56.13';
+
+FLUSH PRIVILEGES;

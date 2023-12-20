@@ -1,0 +1,4 @@
+/setup/.terraform/
+/setup/terraform*
+/setup/.terraform*
+/setup/modules/tester/
